@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" id='js_colouring'>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="screen and (min-width: 769px)" href="extra-large.css"/>
+  <link rel="stylesheet" type="text/css" media="screen and (max-width: 768px)" href="mobile.css"/>
+  <script src="localStorage.js" defer></script>
+  <script src="eventListeners.js" defer></script>
+  <script src="addToDoItemToHTML.js" defer></script>
+  <script src="main.js" defer></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <div id='sticker'>
+    <h1>
+      Make a to-do list:
+    </h1>
+    <div class = 'enter-todo'>
+    <input type='text' id='js_text' class='text' placeholder = 'Enter to do...'>
+    <select id='js_selectDays'>
+      <option value="js_today">Today</option>
+      <option value="js_tomorrow">Tomorrow</option>
+      <option value="js_set aside">Set aside</option>
+      <option value="js_done">Done</option>
+    </select>
+    <button id='js_add' class='add-button button'> Add to-do </button>
+  </div>  
+
+    <div class='listRange'>
+      <div class='list'>
+        <h4>
+          Today:
+        </h4>
+        <div id='js_today'></div>
+      </div>
+      <div class='list'>
+        <h4>
+          Tomorrow:
+        </h4>
+        <div id='js_tomorrow'></div>
+      </div>
+      <div class='list'>
+        <h4>
+          Set aside:
+        </h4>
+        <div id='js_set_aside'></div>
+      </div>
+      <div class='list'>
+        <h4>
+          Done:
+        </h4>
+        <div id='js_done'></div>
+      </div>
+    </div>
+    <div class='set-button'>
+      <button id='js_clear_button' class='button clear-button'> Clear </button>
+      <button id='js_save_button' class='button save-button'> Save </button> 
+    </div>
+  </div>
+  <button id='js_changeColor' class='change-color-button'></button>
+</body>
+
+</html>

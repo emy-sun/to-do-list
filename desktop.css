@@ -1,0 +1,194 @@
+@media screen and (max-width: 1599px) and (min-width: 600px){
+    html, body {
+        margin: 0;
+        padding: 0;
+      }
+      
+      html{
+        background: url(https://images.wallpaperscraft.com/image/sea_distance_sunrise_91509_1920x1080.jpg) no-repeat;  
+        background-size: cover;   
+      }
+      
+      body {
+          font-family: arial;
+        }
+        
+        #sticker {
+          background-color: rgba(255, 255, 255, 0.8);
+          padding: 30px;
+          border-radius: 4px;
+          margin: auto auto;
+          margin-top: 10%;
+          width: 60%;
+          display: block;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        
+        .button,
+        .save_button,
+        .clear_button {
+          background-color: #FFCF49;
+          color: #242320;
+          border-radius: 5px;
+          margin-top: 2px;
+          margin-left: 20px;
+          padding: 5px 15px;
+        }
+        
+        .button:hover {
+          cursor: pointer;
+          opacity: .8;
+        }
+        
+        .text {
+          /* margin-top: 2px; */
+          padding: 5px 15px;
+          border: none;
+          height: 21px;
+          border-radius: 2px;
+          width: 20.6%;
+          color: gray;
+          background: url(/img/paper-push-pin.svg) no-repeat;
+          background-size: 1em;
+          background-position: 11px 9px;
+          background-color: white;
+          text-indent: 17px;
+        }
+      
+        ::placeholder:before{
+          padding-left: 20px;
+        }
+        
+        h3 {
+          margin-top: 0;
+          color: black;
+        }
+        
+        .outList {
+          margin-top: 20px;
+        }
+        
+        .save_button {
+          background-color: #FFCF49;
+          color: black;
+          margin-left: 0;
+        }
+        
+        .clear_button {
+          background-color: #C0C2EC;
+          color: black;
+        }
+        
+        .set_button {
+          display: flex; 
+          justify-content: flex-end;
+          margin-left: 57%; 
+          margin-top: 16px;
+        }
+        
+        select {
+          margin-left: 10px;
+          border-radius: 2px;
+          padding: 0 10px;
+          height: 31px;
+          border: none;
+          font-size: 0,9rem;
+          outline: none;
+        }
+        
+        .listRange{
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        #list1,
+        #list2,
+        #list3,
+        #list4 {
+          margin-top: 20px;
+          width: 24%;
+          border-radius: 2px;
+          background-color: #F2EFDF;
+          box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.02);
+          }
+        
+        h4{
+          margin: 20px 0 10px 20px;
+        }
+      
+        #today, #tomorrow, #set_aside, #done{
+          margin-bottom: 10px;
+          margin-left: 15px;
+        }
+        
+        .button{
+          outline: none;
+          height: 31px;
+          width: 100px;
+          border-radius: 4px;
+          border: none;
+          font-size: 0.8em;
+          font-weight: 500;
+          margin-left: 8px;
+          box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.02);
+        }
+      
+        .closeIcon {
+          display: none;
+          margin-right: 20px;
+          background: url(/img/close-cross.svg) no-repeat scroll;
+          background-size: 10px 10px;
+          width: 10px;
+          height: 10px;
+          }  
+      
+          .hover{
+            display: flex;
+            justify-content: space-between;
+          }
+      
+          .group{
+            display: flex;
+          }
+      
+          label{
+            margin-left: 10px;
+          }
+      
+        .hover:hover .closeIcon{
+          display: inline-block
+          }
+      
+        .button-round{
+          position: absolute;
+          border-radius: 100%;
+          width: 3.5em;
+          height: 3.5em;
+          border: none;
+          background: url(img/pay-per-click-optimization.svg) no-repeat;
+          background-size: 2em;
+          background-position: 11px 11px;
+          background-color: #F2EFDF;
+          bottom: 3%;
+          left: 90%;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          outline: none;
+        } 
+      
+        .button-round:hover{
+          background-color: #7E7F82;
+        }
+      
+        [type='checkbox']{
+          width: 1.25em; height: 1.25em;
+          border: 2px solid #ccc;
+          background: #fff;
+          border-radius: 4px;
+          box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
+        }
+        
+        option{
+          font-size: 1rem;
+          border: none;
+        }
+    }

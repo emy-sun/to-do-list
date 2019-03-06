@@ -1,0 +1,47 @@
+@media screen and (max-width: 768px){
+    html{
+      background: #EEEFEC;
+    }
+
+    body{
+      height: auto;
+    }
+
+    #sticker{
+      background-color: #FFF1E6;
+      margin: 0 auto;
+      margin: 10% 3% 0 3%; 
+      width: 70%;
+      padding: 1rem;
+    }
+
+    .enter-todo{
+      justify-content: flex-end;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    .text{
+      width: 49%;
+    }
+
+    select{
+      width: 37%;
+    }
+
+    .add-button{
+      margin: 5% 0;
+    }
+
+    .listRange{
+      grid-template-columns: repeat(1, 100%);
+    }
+
+    .list{
+      margin-top: 0;
+    }
+
+    .change-color-button{
+      visibility: hidden;
+    }
+}

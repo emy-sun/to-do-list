@@ -1,0 +1,157 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+
+body{
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+html{
+  height: 100%;
+  background: url(https://images.wallpaperscraft.com/image/sea_distance_sunrise_91509_1920x1080.jpg) no-repeat 100% 100%;
+}
+
+#sticker {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 1));
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 70%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+ 
+h4{
+margin-top: 0;
+}
+
+.enter-todo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.button{
+  color: #242320;
+  padding: 0.5rem 1rem;
+  outline: none;
+  min-width: 4rem;
+  border: none;
+  border-radius: 0.25rem;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.02);
+}
+
+.save-button, .add-button {
+  background-color: #FFCF49;
+  margin-left: 2%;
+}
+  
+.clear-button {
+  background-color: #C0C2EC;
+}
+  
+.set-button {
+  display: flex; 
+  justify-content: flex-end;
+  margin: 1.5% 0 2.5% 0;
+}
+  
+.button:hover, .change-color-button:hover {
+  cursor: pointer;
+  opacity: .8;
+}
+  
+.text {
+  padding: 5px 15px;
+  margin-right: 2%;
+  border: none;
+  border-radius: 2px;
+  width: 41%;
+  height: 1.25rem;
+  background: url(/img/paper-push-pin.svg) no-repeat 0.7rem 0.5rem white;
+  background-size: 1em; 
+  text-indent: 17px;
+}
+
+.change-color-button{
+  position: absolute;
+  width: 3.5em;
+  height: 3.5em;
+  border: none;
+  border-radius: 100%;
+  background: url(img/pay-per-click-optimization.svg) no-repeat 11px 11px #F2EFDF;
+  background-size: 2em;
+  bottom: 3%;
+  left: 96%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  outline: none;
+  } 
+
+.change-color-button:hover{
+  background-color: #7E7F82;
+  }
+  
+select { 
+  padding: 0 10px;
+  height: 31px;
+  border: none;
+  border-radius: 2px;
+  font-size: 0,9rem;
+  outline: none;
+}
+  
+.listRange{
+  display: grid;
+  grid-template-columns: repeat(4, 24%);
+  justify-content: space-between;
+  grid-gap: 1%;
+}
+  
+.list {
+  height: 18rem;
+  margin-top: 1.5rem;
+  border-radius: 0.7rem;
+  background-color: #fff0bd;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.02);
+  padding: 1.5rem;
+}
+
+.closeIcon {
+  display: none;
+  margin-right: 20px;
+  background: url(/img/close-cross.svg) no-repeat scroll;
+  background-size: 10px 10px;
+  width: 10px;
+  height: 10px;
+}  
+
+.hover{
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+}
+
+.to_do_in_list{
+  display: flex;
+}
+
+label{
+  margin-left: 10px;
+  line-height: 1.5rem;
+}
+
+.hover:hover .closeIcon{
+  display: inline-block
+}
+
+
+[type='checkbox']{
+  width: 1.25em; height: 1.25em;
+  border: 2px solid #ccc;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
+}
